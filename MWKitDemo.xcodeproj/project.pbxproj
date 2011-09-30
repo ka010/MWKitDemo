@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E6A112F142B23B900B025C0 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E6A112E142B23B900B025C0 /* button.png */; };
+		4E6A1131142B24F000B025C0 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E6A1130142B24F000B025C0 /* bg.png */; };
+		4E6A1133142B2C3900B025C0 /* textfieldbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E6A1132142B2C3900B025C0 /* textfieldbg.png */; };
+		4E8A4A861433BAF7008CDA90 /* home.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 4E8A4A851433BAF7008CDA90 /* home.bmp */; };
+		4E8FB0AC14272867005854AA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8FB0AB14272867005854AA /* Cocoa.framework */; };
+		4E8FB0B614272867005854AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E8FB0B414272867005854AA /* InfoPlist.strings */; };
+		4E8FB0B814272867005854AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FB0B714272867005854AA /* main.m */; };
+		4E8FB0BC14272867005854AA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4E8FB0BA14272867005854AA /* Credits.rtf */; };
+		4E8FB0BF14272867005854AA /* MWKitDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FB0BE14272867005854AA /* MWKitDemoAppDelegate.m */; };
+		4E8FB0C214272867005854AA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E8FB0C014272867005854AA /* MainMenu.xib */; };
+		4E8FB0D114272895005854AA /* MWKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8FB0D014272887005854AA /* MWKit.framework */; };
+		4E8FB0E9142766E1005854AA /* MWKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4E8FB0D014272887005854AA /* MWKit.framework */; };
+		4E96A0AE142AB6F600CFAA5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E96A0AD142AB6F600CFAA5F /* UIKit.framework */; };
+		4E96A0B0142AB6F600CFAA5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E96A0AF142AB6F600CFAA5F /* Foundation.framework */; };
+		4E96A0B2142AB6F600CFAA5F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E96A0B1142AB6F600CFAA5F /* CoreGraphics.framework */; };
+		4E96A0B8142AB6F600CFAA5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E96A0B6142AB6F600CFAA5F /* InfoPlist.strings */; };
+		4E96A0BA142AB6F600CFAA5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E96A0B9142AB6F600CFAA5F /* main.m */; };
+		4E96A0BE142AB6F600CFAA5F /* MWKiteMobileDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E96A0BD142AB6F600CFAA5F /* MWKiteMobileDemoAppDelegate.m */; };
+		4E96A0C1142AB6F600CFAA5F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E96A0BF142AB6F600CFAA5F /* MainWindow.xib */; };
+		4E96A0C4142AB6F600CFAA5F /* MWKiteMobileDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E96A0C3142AB6F600CFAA5F /* MWKiteMobileDemoViewController.m */; };
+		4E96A0C7142AB6F600CFAA5F /* MWKiteMobileDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E96A0C5142AB6F600CFAA5F /* MWKiteMobileDemoViewController.xib */; };
+		4E96A0CB142AB70200CFAA5F /* libMWKitMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E96A0A5142AB61100CFAA5F /* libMWKitMobile.a */; };
+		4E96A0CF142AB73700CFAA5F /* libMWKitMobile.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4E96A0A5142AB61100CFAA5F /* libMWKitMobile.a */; };
+		4E96A0DE142ABA5B00CFAA5F /* libBTstack.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E96A0DD142ABA5B00CFAA5F /* libBTstack.dylib */; };
+		4E96A0DF142ABA6B00CFAA5F /* libBTstack.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4E96A0DD142ABA5B00CFAA5F /* libBTstack.dylib */; };
+		4E96A0EC142AE11500CFAA5F /* 010dev.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 4E96A0EB142AE11500CFAA5F /* 010dev.bmp */; };
+		4E96A0ED142AE11500CFAA5F /* 010dev.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 4E96A0EB142AE11500CFAA5F /* 010dev.bmp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E8FB0CF14272887005854AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FB0C814272887005854AA /* MWKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4E8FB0671427247C005854AA;
+			remoteInfo = MWKit;
+		};
+		4E8FB0D3142728A8005854AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FB0C814272887005854AA /* MWKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E8FB0661427247C005854AA;
+			remoteInfo = MWKit;
+		};
+		4E96A0A4142AB61100CFAA5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FB0C814272887005854AA /* MWKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4E96A0401429F5C100CFAA5F;
+			remoteInfo = MWKitMobile;
+		};
+		4E96A0CC142AB71800CFAA5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FB0C814272887005854AA /* MWKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E96A03F1429F5C100CFAA5F;
+			remoteInfo = MWKitMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4E8FB0E8142766DA005854AA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4E8FB0E9142766E1005854AA /* MWKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E96A0CE142AB72600CFAA5F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4E96A0CF142AB73700CFAA5F /* libMWKitMobile.a in CopyFiles */,
+				4E96A0DF142ABA6B00CFAA5F /* libBTstack.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4E6A112E142B23B900B025C0 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		4E6A1130142B24F000B025C0 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		4E6A1132142B2C3900B025C0 /* textfieldbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textfieldbg.png; sourceTree = "<group>"; };
+		4E8A4A851433BAF7008CDA90 /* home.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = home.bmp; path = ../../MWKit/MWKitMobile/home.bmp; sourceTree = "<group>"; };
+		4E8A4AB81433D193008CDA90 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		4E8FB0A714272866005854AA /* MWKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8FB0AB14272867005854AA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4E8FB0AE14272867005854AA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4E8FB0AF14272867005854AA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4E8FB0B014272867005854AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E8FB0B314272867005854AA /* MWKitDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MWKitDemo-Info.plist"; sourceTree = "<group>"; };
+		4E8FB0B514272867005854AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E8FB0B714272867005854AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E8FB0B914272867005854AA /* MWKitDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MWKitDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4E8FB0BB14272867005854AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4E8FB0BD14272867005854AA /* MWKitDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWKitDemoAppDelegate.h; sourceTree = "<group>"; };
+		4E8FB0BE14272867005854AA /* MWKitDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWKitDemoAppDelegate.m; sourceTree = "<group>"; };
+		4E8FB0C114272867005854AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4E8FB0C814272887005854AA /* MWKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MWKit.xcodeproj; path = ../MWKit/MWKit.xcodeproj; sourceTree = "<group>"; };
+		4E96A0AB142AB6F600CFAA5F /* MWKiteMobileDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWKiteMobileDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E96A0AD142AB6F600CFAA5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4E96A0AF142AB6F600CFAA5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4E96A0B1142AB6F600CFAA5F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		4E96A0B5142AB6F600CFAA5F /* MWKiteMobileDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MWKiteMobileDemo-Info.plist"; sourceTree = "<group>"; };
+		4E96A0B7142AB6F600CFAA5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E96A0B9142AB6F600CFAA5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E96A0BB142AB6F600CFAA5F /* MWKiteMobileDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MWKiteMobileDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4E96A0BC142AB6F600CFAA5F /* MWKiteMobileDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWKiteMobileDemoAppDelegate.h; sourceTree = "<group>"; };
+		4E96A0BD142AB6F600CFAA5F /* MWKiteMobileDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWKiteMobileDemoAppDelegate.m; sourceTree = "<group>"; };
+		4E96A0C0142AB6F600CFAA5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4E96A0C2142AB6F600CFAA5F /* MWKiteMobileDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWKiteMobileDemoViewController.h; sourceTree = "<group>"; };
+		4E96A0C3142AB6F600CFAA5F /* MWKiteMobileDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWKiteMobileDemoViewController.m; sourceTree = "<group>"; };
+		4E96A0C6142AB6F600CFAA5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MWKiteMobileDemoViewController.xib; sourceTree = "<group>"; };
+		4E96A0DD142ABA5B00CFAA5F /* libBTstack.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBTstack.dylib; path = ../btstack/src/libBTstack.dylib; sourceTree = "<group>"; };
+		4E96A0EB142AE11500CFAA5F /* 010dev.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = 010dev.bmp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E8FB0A414272866005854AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8FB0AC14272867005854AA /* Cocoa.framework in Frameworks */,
+				4E8FB0D114272895005854AA /* MWKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E96A0A8142AB6F600CFAA5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E96A0DE142ABA5B00CFAA5F /* libBTstack.dylib in Frameworks */,
+				4E96A0CB142AB70200CFAA5F /* libMWKitMobile.a in Frameworks */,
+				4E96A0AE142AB6F600CFAA5F /* UIKit.framework in Frameworks */,
+				4E96A0B0142AB6F600CFAA5F /* Foundation.framework in Frameworks */,
+				4E96A0B2142AB6F600CFAA5F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E8FB09C14272866005854AA = {
+			isa = PBXGroup;
+			children = (
+				4E8FB0C814272887005854AA /* MWKit.xcodeproj */,
+				4E8FB0B114272867005854AA /* MWKitDemo */,
+				4E96A0B3142AB6F600CFAA5F /* MWKiteMobileDemo */,
+				4E8FB0AA14272867005854AA /* Frameworks */,
+				4E8FB0A814272866005854AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E8FB0A814272866005854AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E8FB0A714272866005854AA /* MWKitDemo.app */,
+				4E96A0AB142AB6F600CFAA5F /* MWKiteMobileDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E8FB0AA14272867005854AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E8A4AB81433D193008CDA90 /* ScriptingBridge.framework */,
+				4E96A0DD142ABA5B00CFAA5F /* libBTstack.dylib */,
+				4E8FB0AB14272867005854AA /* Cocoa.framework */,
+				4E96A0AD142AB6F600CFAA5F /* UIKit.framework */,
+				4E96A0AF142AB6F600CFAA5F /* Foundation.framework */,
+				4E96A0B1142AB6F600CFAA5F /* CoreGraphics.framework */,
+				4E8FB0AD14272867005854AA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E8FB0AD14272867005854AA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E8FB0AE14272867005854AA /* AppKit.framework */,
+				4E8FB0AF14272867005854AA /* CoreData.framework */,
+				4E8FB0B014272867005854AA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4E8FB0B114272867005854AA /* MWKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4E8FB0BD14272867005854AA /* MWKitDemoAppDelegate.h */,
+				4E8FB0BE14272867005854AA /* MWKitDemoAppDelegate.m */,
+				4E8FB0C014272867005854AA /* MainMenu.xib */,
+				4E8FB0B214272867005854AA /* Supporting Files */,
+			);
+			path = MWKitDemo;
+			sourceTree = "<group>";
+		};
+		4E8FB0B214272867005854AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E8FB0B314272867005854AA /* MWKitDemo-Info.plist */,
+				4E8FB0B414272867005854AA /* InfoPlist.strings */,
+				4E8A4A851433BAF7008CDA90 /* home.bmp */,
+				4E8FB0B714272867005854AA /* main.m */,
+				4E8FB0B914272867005854AA /* MWKitDemo-Prefix.pch */,
+				4E8FB0BA14272867005854AA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E8FB0C914272887005854AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E8FB0D014272887005854AA /* MWKit.framework */,
+				4E96A0A5142AB61100CFAA5F /* libMWKitMobile.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E96A0B3142AB6F600CFAA5F /* MWKiteMobileDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4E96A0BC142AB6F600CFAA5F /* MWKiteMobileDemoAppDelegate.h */,
+				4E96A0BD142AB6F600CFAA5F /* MWKiteMobileDemoAppDelegate.m */,
+				4E96A0BF142AB6F600CFAA5F /* MainWindow.xib */,
+				4E96A0C2142AB6F600CFAA5F /* MWKiteMobileDemoViewController.h */,
+				4E96A0C3142AB6F600CFAA5F /* MWKiteMobileDemoViewController.m */,
+				4E96A0C5142AB6F600CFAA5F /* MWKiteMobileDemoViewController.xib */,
+				4E96A0B4142AB6F600CFAA5F /* Supporting Files */,
+			);
+			path = MWKiteMobileDemo;
+			sourceTree = "<group>";
+		};
+		4E96A0B4142AB6F600CFAA5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ED87776142DC2D9009674B9 /* Fonts */,
+				4E6A1130142B24F000B025C0 /* bg.png */,
+				4E6A1132142B2C3900B025C0 /* textfieldbg.png */,
+				4E6A112E142B23B900B025C0 /* button.png */,
+				4E96A0EB142AE11500CFAA5F /* 010dev.bmp */,
+				4E96A0B5142AB6F600CFAA5F /* MWKiteMobileDemo-Info.plist */,
+				4E96A0B6142AB6F600CFAA5F /* InfoPlist.strings */,
+				4E96A0B9142AB6F600CFAA5F /* main.m */,
+				4E96A0BB142AB6F600CFAA5F /* MWKiteMobileDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4ED87776142DC2D9009674B9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E8FB0A614272866005854AA /* MWKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8FB0C514272867005854AA /* Build configuration list for PBXNativeTarget "MWKitDemo" */;
+			buildPhases = (
+				4E8FB0A314272866005854AA /* Sources */,
+				4E8FB0A414272866005854AA /* Frameworks */,
+				4E8FB0A514272866005854AA /* Resources */,
+				4E8FB0E8142766DA005854AA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E8FB0D4142728A8005854AA /* PBXTargetDependency */,
+			);
+			name = MWKitDemo;
+			productName = MWKitDemo;
+			productReference = 4E8FB0A714272866005854AA /* MWKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E96A0AA142AB6F600CFAA5F /* MWKiteMobileDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E96A0C8142AB6F600CFAA5F /* Build configuration list for PBXNativeTarget "MWKiteMobileDemo" */;
+			buildPhases = (
+				4E96A0A7142AB6F600CFAA5F /* Sources */,
+				4E96A0A8142AB6F600CFAA5F /* Frameworks */,
+				4E96A0A9142AB6F600CFAA5F /* Resources */,
+				4E96A0CE142AB72600CFAA5F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E96A0CD142AB71800CFAA5F /* PBXTargetDependency */,
+			);
+			name = MWKiteMobileDemo;
+			productName = MWKiteMobileDemo;
+			productReference = 4E96A0AB142AB6F600CFAA5F /* MWKiteMobileDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E8FB09E14272866005854AA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4E8FB0A114272866005854AA /* Build configuration list for PBXProject "MWKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E8FB09C14272866005854AA;
+			productRefGroup = 4E8FB0A814272866005854AA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4E8FB0C914272887005854AA /* Products */;
+					ProjectRef = 4E8FB0C814272887005854AA /* MWKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4E8FB0A614272866005854AA /* MWKitDemo */,
+				4E96A0AA142AB6F600CFAA5F /* MWKiteMobileDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4E8FB0D014272887005854AA /* MWKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MWKit.framework;
+			remoteRef = 4E8FB0CF14272887005854AA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E96A0A5142AB61100CFAA5F /* libMWKitMobile.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMWKitMobile.a;
+			remoteRef = 4E96A0A4142AB61100CFAA5F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E8FB0A514272866005854AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8FB0B614272867005854AA /* InfoPlist.strings in Resources */,
+				4E8FB0BC14272867005854AA /* Credits.rtf in Resources */,
+				4E8FB0C214272867005854AA /* MainMenu.xib in Resources */,
+				4E96A0EC142AE11500CFAA5F /* 010dev.bmp in Resources */,
+				4E8A4A861433BAF7008CDA90 /* home.bmp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E96A0A9142AB6F600CFAA5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E96A0B8142AB6F600CFAA5F /* InfoPlist.strings in Resources */,
+				4E96A0C1142AB6F600CFAA5F /* MainWindow.xib in Resources */,
+				4E96A0C7142AB6F600CFAA5F /* MWKiteMobileDemoViewController.xib in Resources */,
+				4E96A0ED142AE11500CFAA5F /* 010dev.bmp in Resources */,
+				4E6A112F142B23B900B025C0 /* button.png in Resources */,
+				4E6A1131142B24F000B025C0 /* bg.png in Resources */,
+				4E6A1133142B2C3900B025C0 /* textfieldbg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E8FB0A314272866005854AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8FB0B814272867005854AA /* main.m in Sources */,
+				4E8FB0BF14272867005854AA /* MWKitDemoAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E96A0A7142AB6F600CFAA5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E96A0BA142AB6F600CFAA5F /* main.m in Sources */,
+				4E96A0BE142AB6F600CFAA5F /* MWKiteMobileDemoAppDelegate.m in Sources */,
+				4E96A0C4142AB6F600CFAA5F /* MWKiteMobileDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E8FB0D4142728A8005854AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MWKit;
+			targetProxy = 4E8FB0D3142728A8005854AA /* PBXContainerItemProxy */;
+		};
+		4E96A0CD142AB71800CFAA5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MWKitMobile;
+			targetProxy = 4E96A0CC142AB71800CFAA5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E8FB0B414272867005854AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8FB0B514272867005854AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E8FB0BA14272867005854AA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8FB0BB14272867005854AA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4E8FB0C014272867005854AA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8FB0C114272867005854AA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4E96A0B6142AB6F600CFAA5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E96A0B7142AB6F600CFAA5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E96A0BF142AB6F600CFAA5F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E96A0C0142AB6F600CFAA5F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4E96A0C5142AB6F600CFAA5F /* MWKiteMobileDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E96A0C6142AB6F600CFAA5F /* en */,
+			);
+			name = MWKiteMobileDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E8FB0C314272867005854AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4E8FB0C414272867005854AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4E8FB0C614272867005854AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MWKitDemo/MWKitDemo-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "MWKitDemo/MWKitDemo-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E8FB0C714272867005854AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MWKitDemo/MWKitDemo-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "MWKitDemo/MWKitDemo-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E96A0C9142AB6F600CFAA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MWKiteMobileDemo/MWKiteMobileDemo-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)\"/**",
+					"\"$(SRCROOT)/../MWKit\"/**",
+				);
+				INFOPLIST_FILE = "MWKiteMobileDemo/MWKiteMobileDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../btstack/src\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E96A0CA142AB6F600CFAA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MWKiteMobileDemo/MWKiteMobileDemo-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)\"/**",
+					"\"$(SRCROOT)/../MWKit\"/**",
+				);
+				INFOPLIST_FILE = "MWKiteMobileDemo/MWKiteMobileDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../btstack/src\"",
+				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E8FB0A114272866005854AA /* Build configuration list for PBXProject "MWKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8FB0C314272867005854AA /* Debug */,
+				4E8FB0C414272867005854AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8FB0C514272867005854AA /* Build configuration list for PBXNativeTarget "MWKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8FB0C614272867005854AA /* Debug */,
+				4E8FB0C714272867005854AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E96A0C8142AB6F600CFAA5F /* Build configuration list for PBXNativeTarget "MWKiteMobileDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E96A0C9142AB6F600CFAA5F /* Debug */,
+				4E96A0CA142AB6F600CFAA5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E8FB09E14272866005854AA /* Project object */;
+}
