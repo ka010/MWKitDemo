@@ -30,6 +30,8 @@
 		4E96A0ED142AE11500CFAA5F /* 010dev.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 4E96A0EB142AE11500CFAA5F /* 010dev.bmp */; };
 		4EBFC6B01582F3DB00502723 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EBFC6AF1582F3DB00502723 /* CoreBluetooth.framework */; };
 		4EED841315856F2B007780C3 /* libMWKitMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EED841015856F14007780C3 /* libMWKitMobile.a */; };
+		4EED842C15857F8D007780C3 /* MWKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EED840E15856F14007780C3 /* MWKit.framework */; };
+		4EED842D15857F90007780C3 /* MWKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4EED840E15856F14007780C3 /* MWKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,13 @@
 			remoteGlobalIDString = 4E96A03F1429F5C100CFAA5F;
 			remoteInfo = MWKitMobile;
 		};
+		4EED842A15857F86007780C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EED840515856F14007780C3 /* MWKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E8FB0661427247C005854AA;
+			remoteInfo = MWKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +72,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				4EED842D15857F90007780C3 /* MWKit.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E8FB0AC14272867005854AA /* Cocoa.framework in Frameworks */,
+				4EED842C15857F8D007780C3 /* MWKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +279,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				4EED842B15857F86007780C3 /* PBXTargetDependency */,
 			);
 			name = MWKitDemo;
 			productName = MWKitDemo;
@@ -396,6 +408,11 @@
 			name = MWKitMobile;
 			targetProxy = 4EED841115856F27007780C3 /* PBXContainerItemProxy */;
 		};
+		4EED842B15857F86007780C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MWKit;
+			targetProxy = 4EED842A15857F86007780C3 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -456,6 +473,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -470,6 +488,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -483,6 +502,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -490,6 +510,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
