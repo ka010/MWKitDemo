@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E59B5BC158432610091686C /* MetaWatch Large 16pt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E59B5BB158432610091686C /* MetaWatch Large 16pt.ttf */; };
-		4E59B5BD158432610091686C /* MetaWatch Large 16pt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E59B5BB158432610091686C /* MetaWatch Large 16pt.ttf */; };
-		4E59B5C0158432CE0091686C /* mw8_5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E59B5BE158432CE0091686C /* mw8_5.ttf */; };
-		4E59B5C1158432CE0091686C /* mw8_5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E59B5BE158432CE0091686C /* mw8_5.ttf */; };
-		4E59B5C2158432CE0091686C /* mw8_7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E59B5BF158432CE0091686C /* mw8_7.ttf */; };
-		4E59B5C3158432CE0091686C /* mw8_7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E59B5BF158432CE0091686C /* mw8_7.ttf */; };
 		4E5E22F0143C002400A2A529 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5E22EF143C002400A2A529 /* UIKit.framework */; };
 		4E5E22F2143C002F00A2A529 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5E22F1143C002F00A2A529 /* CoreGraphics.framework */; };
 		4E5E22F4143C003C00A2A529 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5E22F3143C003C00A2A529 /* Foundation.framework */; };
@@ -84,9 +78,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4E59B5BB158432610091686C /* MetaWatch Large 16pt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MetaWatch Large 16pt.ttf"; path = "../../MWKit/MWKit/MetaWatch Large 16pt.ttf"; sourceTree = "<group>"; };
-		4E59B5BE158432CE0091686C /* mw8_5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = mw8_5.ttf; path = ../../MWKit/MWKit/mw8_5.ttf; sourceTree = "<group>"; };
-		4E59B5BF158432CE0091686C /* mw8_7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = mw8_7.ttf; path = ../../MWKit/MWKit/mw8_7.ttf; sourceTree = "<group>"; };
 		4E5E22EF143C002400A2A529 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iphoneos.platform/developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4E5E22F1143C002F00A2A529 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iphoneos.platform/developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		4E5E22F3143C003C00A2A529 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iphoneos.platform/developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -241,7 +232,6 @@
 		4E96A0B4142AB6F600CFAA5F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4ED87776142DC2D9009674B9 /* Fonts */,
 				4E6A1130142B24F000B025C0 /* bg.png */,
 				4E6A1132142B2C3900B025C0 /* textfieldbg.png */,
 				4E6A112E142B23B900B025C0 /* button.png */,
@@ -252,16 +242,6 @@
 				4E96A0BB142AB6F600CFAA5F /* MWKiteMobileDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4ED87776142DC2D9009674B9 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				4E59B5BE158432CE0091686C /* mw8_5.ttf */,
-				4E59B5BF158432CE0091686C /* mw8_7.ttf */,
-				4E59B5BB158432610091686C /* MetaWatch Large 16pt.ttf */,
-			);
-			name = Fonts;
 			sourceTree = "<group>";
 		};
 		4EED840615856F14007780C3 /* Products */ = {
@@ -369,9 +349,6 @@
 				4E8FB0C214272867005854AA /* MainMenu.xib in Resources */,
 				4E96A0EC142AE11500CFAA5F /* 010dev.bmp in Resources */,
 				4E8A4A861433BAF7008CDA90 /* home.bmp in Resources */,
-				4E59B5BC158432610091686C /* MetaWatch Large 16pt.ttf in Resources */,
-				4E59B5C0158432CE0091686C /* mw8_5.ttf in Resources */,
-				4E59B5C2158432CE0091686C /* mw8_7.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,9 +363,6 @@
 				4E6A112F142B23B900B025C0 /* button.png in Resources */,
 				4E6A1131142B24F000B025C0 /* bg.png in Resources */,
 				4E6A1133142B2C3900B025C0 /* textfieldbg.png in Resources */,
-				4E59B5BD158432610091686C /* MetaWatch Large 16pt.ttf in Resources */,
-				4E59B5C1158432CE0091686C /* mw8_5.ttf in Resources */,
-				4E59B5C3158432CE0091686C /* mw8_7.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,18 +533,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MWKiteMobileDemo/MWKiteMobileDemo-Prefix.pch";
 				GCC_VERSION = "";
-				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)\"/**",
-					"\"$(SRCROOT)/../MWKit\"/**",
-				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 				INFOPLIST_FILE = "MWKiteMobileDemo/MWKiteMobileDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../btstack/src\"",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -587,19 +555,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MWKiteMobileDemo/MWKiteMobileDemo-Prefix.pch";
 				GCC_VERSION = "";
-				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)\"/**",
-					"\"$(SRCROOT)/../MWKit\"/**",
-				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 				INFOPLIST_FILE = "MWKiteMobileDemo/MWKiteMobileDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../btstack/src\"",
-				);
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
