@@ -1,0 +1,3 @@
+[submodule "MWKit"]
+	path = MWKit
+	url = https://github.com/ka010/MWKit.git
