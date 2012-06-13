@@ -143,7 +143,6 @@
     
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(mwDidSendData:) name:MWKitDidSendData object:nil];
     
-    
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(mwDidReceiveButtonPress:) name:MWKitDidReceivePuttonPress object:nil];
 }
 
