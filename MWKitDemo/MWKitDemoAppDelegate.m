@@ -126,7 +126,7 @@
             - MWSerialPortController (writes to the TTY directly, serial port needs to be setup by OS)
      */
     
-    [MWMetaWatch sharedWatch].connectionController = [MWBluetoothController sharedController];
+    [MWMetaWatch sharedWatch].connectionController = [MWCoreBluetoothController sharedController];
     
 //    CGImageRef ref = [MWImageTools imageFromText:@"test"];
 //    NSImage *img = [[NSImage alloc]initWithCGImage:ref size:NSMakeSize(96, 96)];

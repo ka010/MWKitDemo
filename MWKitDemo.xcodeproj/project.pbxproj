@@ -286,9 +286,9 @@
 			productReference = 4E8FB0A714272866005854AA /* MWKitDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4E96A0AA142AB6F600CFAA5F /* MWKiteMobileDemo */ = {
+		4E96A0AA142AB6F600CFAA5F /* MWKitMobileDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E96A0C8142AB6F600CFAA5F /* Build configuration list for PBXNativeTarget "MWKiteMobileDemo" */;
+			buildConfigurationList = 4E96A0C8142AB6F600CFAA5F /* Build configuration list for PBXNativeTarget "MWKitMobileDemo" */;
 			buildPhases = (
 				4E96A0A7142AB6F600CFAA5F /* Sources */,
 				4E96A0A8142AB6F600CFAA5F /* Frameworks */,
@@ -300,7 +300,7 @@
 			dependencies = (
 				4EED841215856F27007780C3 /* PBXTargetDependency */,
 			);
-			name = MWKiteMobileDemo;
+			name = MWKitMobileDemo;
 			productName = MWKiteMobileDemo;
 			productReference = 4E96A0AB142AB6F600CFAA5F /* MWKiteMobileDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -329,7 +329,7 @@
 			projectRoot = "";
 			targets = (
 				4E8FB0A614272866005854AA /* MWKitDemo */,
-				4E96A0AA142AB6F600CFAA5F /* MWKiteMobileDemo */,
+				4E96A0AA142AB6F600CFAA5F /* MWKitMobileDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -609,7 +609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E96A0C8142AB6F600CFAA5F /* Build configuration list for PBXNativeTarget "MWKiteMobileDemo" */ = {
+		4E96A0C8142AB6F600CFAA5F /* Build configuration list for PBXNativeTarget "MWKitMobileDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4E96A0C9142AB6F600CFAA5F /* Debug */,

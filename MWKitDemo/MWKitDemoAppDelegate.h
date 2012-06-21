@@ -15,6 +15,7 @@
 
 #import <MWKit/MWBluetoothController.h>
 #import <MWKit/MWSerialPortController.h>
+#import <MWKit/MWCoreBluetoothController.h>
 
 @interface MWKitDemoAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
