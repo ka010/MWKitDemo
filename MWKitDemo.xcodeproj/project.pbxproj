@@ -109,7 +109,7 @@
 		4E8FB0BD14272867005854AA /* MWKitDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWKitDemoAppDelegate.h; sourceTree = "<group>"; };
 		4E8FB0BE14272867005854AA /* MWKitDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWKitDemoAppDelegate.m; sourceTree = "<group>"; };
 		4E8FB0C114272867005854AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		4E96A0AB142AB6F600CFAA5F /* MWKiteMobileDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWKiteMobileDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E96A0AB142AB6F600CFAA5F /* MWKitMobileDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWKitMobileDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E96A0AD142AB6F600CFAA5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4E96A0AF142AB6F600CFAA5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4E96A0B1142AB6F600CFAA5F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -158,10 +158,6 @@
 			isa = PBXGroup;
 			children = (
 				4EED840515856F14007780C3 /* MWKit.xcodeproj */,
-				4EBFC6AF1582F3DB00502723 /* CoreBluetooth.framework */,
-				4E5E22F3143C003C00A2A529 /* Foundation.framework */,
-				4E5E22F1143C002F00A2A529 /* CoreGraphics.framework */,
-				4E5E22EF143C002400A2A529 /* UIKit.framework */,
 				4E8FB0B114272867005854AA /* MWKitDemo */,
 				4E96A0B3142AB6F600CFAA5F /* MWKiteMobileDemo */,
 				4E8FB0AA14272867005854AA /* Frameworks */,
@@ -173,7 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				4E8FB0A714272866005854AA /* MWKitDemo.app */,
-				4E96A0AB142AB6F600CFAA5F /* MWKiteMobileDemo.app */,
+				4E96A0AB142AB6F600CFAA5F /* MWKitMobileDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -181,6 +177,10 @@
 		4E8FB0AA14272867005854AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4EBFC6AF1582F3DB00502723 /* CoreBluetooth.framework */,
+				4E5E22F3143C003C00A2A529 /* Foundation.framework */,
+				4E5E22F1143C002F00A2A529 /* CoreGraphics.framework */,
+				4E5E22EF143C002400A2A529 /* UIKit.framework */,
 				4E8A4AB81433D193008CDA90 /* ScriptingBridge.framework */,
 				4E96A0DD142ABA5B00CFAA5F /* libBTstack.dylib */,
 				4E8FB0AB14272867005854AA /* Cocoa.framework */,
@@ -302,7 +302,7 @@
 			);
 			name = MWKitMobileDemo;
 			productName = MWKiteMobileDemo;
-			productReference = 4E96A0AB142AB6F600CFAA5F /* MWKiteMobileDemo.app */;
+			productReference = 4E96A0AB142AB6F600CFAA5F /* MWKitMobileDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
